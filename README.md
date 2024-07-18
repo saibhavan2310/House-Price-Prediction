@@ -1,1 +1,9 @@
 # House-Price-Prediction
+🏡 Bangalore House Price Prediction
+This project aims to predict house prices in Bangalore using Python for data processing and machine learning, and React.js for building the web interface. The goal is to provide accurate price predictions based on various features such as location, size, number of bedrooms, and property age. The project involves three main stages: data collection and preprocessing, model building and evaluation, and web development for the user interface.
+
+📊 Data Collection and Preprocessing: We collected housing data from reliable sources like Kaggle and real estate websites. The dataset includes crucial features such as location, size, number of bedrooms, and age of the property. In the preprocessing stage, we handled missing values, removed duplicates, and encoded categorical variables. Numerical features were normalized to ensure consistency, and the dataset was split into training and testing sets to evaluate the model's performance accurately.
+
+🤖 Model Building and Evaluation: We conducted Exploratory Data Analysis (EDA) to understand the data better and visualize relationships between features. Various machine learning models, including Linear Regression, Decision Trees, and Random Forests, were implemented and evaluated. Hyperparameter tuning and cross-validation techniques were applied to optimize the models. The best-performing model was then selected based on evaluation metrics like Mean Absolute Error (MAE) and R-squared score.
+
+💻 Web Development with React.js: To provide an intuitive user interface, we developed a web application using React.js. The app allows users to input property details and get price predictions instantly. The frontend interacts seamlessly with the backend to provide real-time predictions and an engaging user experience.
